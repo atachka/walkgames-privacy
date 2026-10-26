@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Walk Games Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  /* Layout: one readable column; pixel-font wordmark and section heads echo the studio's sneaker logo. */
+  :root {
+    --bg: #f6f4f7;
+    --surface: #ffffff;
+    --fg: #1b1822;
+    --muted: #5d566b;
+    --rule: #dcd7e2;
+    --accent: #d93a40;
+    --display: "Silkscreen", "Courier New", monospace;
+    --body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14121c; --surface: #1d1a27; --fg: #f3eee6; --muted: #a49db3; --rule: #332e40; --accent: #ff5a5f;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14121c; --surface: #1d1a27; --fg: #f3eee6; --muted: #a49db3; --rule: #332e40; --accent: #ff5a5f;
+    color-scheme: dark;
+  }
+
+  body { margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .page {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding-block: 3rem 4rem;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  header { display: grid; gap: 0.75rem; padding-bottom: 2rem; border-bottom: 2px solid var(--rule); }
+  .studio {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(2.2rem, 8vw, 3.2rem);
+    line-height: 1;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+  .studio span { display: block; font-size: 0.42em; color: var(--fg); letter-spacing: 0.4em; margin-top: 0.4rem; }
+  h1 { font-size: 1.5rem; margin: 0.5rem 0 0; text-wrap: balance; }
+  .meta { color: var(--muted); margin: 0; font-size: 0.95rem; }
+
+  main { display: grid; gap: 2.25rem; padding-top: 2rem; }
+  section { display: grid; gap: 0.6rem; }
+  h2 {
+    font-family: var(--display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    margin: 0;
+  }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.25rem; display: grid; gap: 0.4rem; }
+  strong { font-weight: 700; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+  .games { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .game {
+    font-family: var(--display);
+    font-size: 0.85rem;
+    padding: 0.35rem 0.7rem;
+    border: 2px solid var(--fg);
+    background: var(--surface);
+  }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--rule); }
+  th { font-weight: 700; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <p class="studio">WALK<span>GAMES</span></p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective October 26, 2026</p>
+  </header>
+
+  <main>
+    <section>
+      <p>This policy explains what information is collected when you play games published by Walk Games, and how it is used. It applies to:</p>
+      <div class="games">
+        <span class="game">Bad Reception</span>
+        <span class="game">Fur Feud</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>What we collect ourselves</h2>
+      <p>Nothing that identifies you. Our games have no accounts, no sign-in and no chat. We never ask for your name, email address, phone number or contacts.</p>
+      <p>Your game progress and settings (levels completed, stars, sound on or off) are saved only on your device. They are not sent to us.</p>
+    </section>
+
+    <section>
+      <h2>Advertising</h2>
+      <p>Our games are free and show ads. Ads are delivered by <strong>Unity LevelPlay</strong> (Unity Technologies) and the advertising networks it works with. To show ads, measure them and prevent fraud, these providers may automatically collect:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Data</th><th>Example</th></tr></thead>
+          <tbody>
+            <tr><td>Device identifiers</td><td>Advertising ID (Android), IDFA (iOS, only if you allow tracking)</td></tr>
+            <tr><td>Approximate location</td><td>Country or city, derived from your IP address</td></tr>
+            <tr><td>Device information</td><td>Phone model, operating system, language, screen size</td></tr>
+            <tr><td>App interactions</td><td>Ads viewed or tapped, session length</td></tr>
+            <tr><td>Diagnostics</td><td>Crash logs and performance data</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>This data is handled under the ad providers' own privacy policies. See the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener">Unity Game Player and App User Privacy Policy</a> for details and the list of partner networks.</p>
+    </section>
+
+    <section>
+      <h2>Your choices</h2>
+      <ul>
+        <li><strong>Android:</strong> open Settings, then Google, then Ads, to reset or delete your advertising ID. Ads will then no longer be personalised.</li>
+        <li><strong>iPhone and iPad:</strong> the game asks before any tracking. You can change this any time in Settings, then Privacy &amp; Security, then Tracking.</li>
+        <li>Where the law requires it (for example in the EU and UK), you will be asked for consent before personalised ads are shown.</li>
+        <li>Uninstalling the game deletes all progress saved on your device.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>Our games are intended for players aged 13 and over. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information through one of our games, contact us and we will help remove it.</p>
+    </section>
+
+    <section>
+      <h2>Your rights</h2>
+      <p>Depending on where you live (for example under the GDPR or the CCPA), you may have the right to access, correct or delete personal data, or to object to its use. Because we do not store personal data ourselves, requests about advertising data are best sent to Unity using the link above. We are also happy to help with any request.</p>
+    </section>
+
+    <section>
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this policy can be sent to Walk Games through the developer contact email shown on each game's Google Play or App Store page.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 Walk Games</footer>
+</div>
+</body>
+</html>
